@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: gateway
+
+server:
+  port: 8080
+  servlet:
+    context-path: /gateway
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+jwt:
+  config:
+    login-url: /auth/login
+    type: signed
+
+# avoid 504 Gateway Timeout
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+
+zuul:
+  sensitive-headers: Cookie

@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "course.microservices.core.property.JWTConfiguration",
+      "sourceType": "course.microservices.core.property.JWTConfiguration"
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "course.microservices.core.property.JWTConfiguration$Header",
+      "sourceType": "course.microservices.core.property.JWTConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "course.microservices.core.property.JWTConfiguration",
+      "defaultValue": 3600
+    },
+    {
+      "name": "jwt.config.header.name",
+      "type": "java.lang.String",
+      "sourceType": "course.microservices.core.property.JWTConfiguration$Header",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "jwt.config.header.prefix",
+      "type": "java.lang.String",
+      "sourceType": "course.microservices.core.property.JWTConfiguration$Header",
+      "defaultValue": "Bearer "
+    },
+    {
+      "name": "jwt.config.login-url",
+      "type": "java.lang.String",
+      "sourceType": "course.microservices.core.property.JWTConfiguration",
+      "defaultValue": "\/login\/**"
+    },
+    {
+      "name": "jwt.config.private-key",
+      "type": "java.lang.String",
+      "sourceType": "course.microservices.core.property.JWTConfiguration",
+      "defaultValue": "lf2erEb0zrJT5qCNd0urkIpiksrrryT2"
+    },
+    {
+      "name": "jwt.config.type",
+      "type": "java.lang.String",
+      "sourceType": "course.microservices.core.property.JWTConfiguration",
+      "defaultValue": "encrypted"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,10 @@
+course/microservices/core/model/Course.class
+course/microservices/core/repository/ApplicationUserRepository.class
+course/microservices/core/property/JWTConfiguration$Header.class
+course/microservices/core/model/ApplicationUser$ApplicationUserBuilder.class
+META-INF/spring-configuration-metadata.json
+course/microservices/core/repository/CourseRepository.class
+course/microservices/core/property/JWTConfiguration.class
+course/microservices/core/model/ApplicationUser.class
+course/microservices/core/model/AbstractEntity.class
+course/microservices/core/model/Course$CourseBuilder.class
