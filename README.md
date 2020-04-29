@@ -12,3 +12,5 @@ Technologies used:
 * Microservice Gateway
 * Maven
 * JWT
+* Lombok
+* Swagger
