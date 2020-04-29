@@ -4,11 +4,11 @@ https://www.youtube.com/watch?v=vxeMnM15gsI&list=PL62G310vn6nH_iMQoPMhIlK_ey1npy
 
 Technologies used:
 
-Java 8
-Spring Boot
-Multimodular Architecture
-Mocroservices
-Eureka Server Discovery
-Microservice Gateway
-Maven
-JWT
+* Java 8
+* Spring Boot
+* Multimodular Architecture
+* Mocroservices
+* Eureka Server Discovery
+* Microservice Gateway
+* Maven
+* JWT
